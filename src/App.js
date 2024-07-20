@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import ReacterDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import React from 'react';
 import {HashRouter, Route, Routes} from 'react-router-dom';
 import Navbar from './navbar/navbar.jsx';

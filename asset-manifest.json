@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.130ef768.css",
-    "main.js": "/static/js/main.9c365793.js",
-    "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
-    "static/media/mentalhealth.png": "/static/media/mentalhealth.9d97b19fef2b0fe53b1b.png",
-    "static/media/PTC.png": "/static/media/PTC.6fceea53d5a5d1b771d8.png",
-    "static/media/brightRoman.ttf": "/static/media/brightRoman.cf09af08bf0bf4996d17.ttf",
-    "static/media/miliblock.png": "/static/media/miliblock.d89c8f3ede1943195e27.png",
-    "static/media/placeholderchecklist.png": "/static/media/placeholderchecklist.62b2d68916a79f25ab4c.png",
-    "static/media/me.jpg": "/static/media/me.06fea013066abc7f1a35.jpg",
-    "static/media/me.webp": "/static/media/me.98325b83a96a1c297ca6.webp",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/index.html",
-    "main.130ef768.css.map": "/static/css/main.130ef768.css.map",
-    "main.9c365793.js.map": "/static/js/main.9c365793.js.map",
-    "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
+    "main.css": "/codingmayus.github.io/static/css/main.0a346fa4.css",
+    "main.js": "/codingmayus.github.io/static/js/main.419f487b.js",
+    "static/js/453.bb828c5d.chunk.js": "/codingmayus.github.io/static/js/453.bb828c5d.chunk.js",
+    "static/media/mentalhealth.png": "/codingmayus.github.io/static/media/mentalhealth.9d97b19fef2b0fe53b1b.png",
+    "static/media/PTC.png": "/codingmayus.github.io/static/media/PTC.6fceea53d5a5d1b771d8.png",
+    "static/media/brightRoman.ttf": "/codingmayus.github.io/static/media/brightRoman.cf09af08bf0bf4996d17.ttf",
+    "static/media/miliblock.png": "/codingmayus.github.io/static/media/miliblock.d89c8f3ede1943195e27.png",
+    "static/media/placeholderchecklist.png": "/codingmayus.github.io/static/media/placeholderchecklist.62b2d68916a79f25ab4c.png",
+    "static/media/me.jpg": "/codingmayus.github.io/static/media/me.06fea013066abc7f1a35.jpg",
+    "static/media/me.webp": "/codingmayus.github.io/static/media/me.98325b83a96a1c297ca6.webp",
+    "static/media/logo.svg": "/codingmayus.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/codingmayus.github.io/index.html",
+    "main.0a346fa4.css.map": "/codingmayus.github.io/static/css/main.0a346fa4.css.map",
+    "main.419f487b.js.map": "/codingmayus.github.io/static/js/main.419f487b.js.map",
+    "453.bb828c5d.chunk.js.map": "/codingmayus.github.io/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.130ef768.css",
-    "static/js/main.9c365793.js"
+    "static/css/main.0a346fa4.css",
+    "static/js/main.419f487b.js"
   ]
 }

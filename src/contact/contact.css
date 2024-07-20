@@ -1,0 +1,15 @@
+.icon{
+    font-size:3vw;
+    color:gray;
+    padding:1.5vw;
+}
+.icon:hover{
+    color:blue;
+
+}
+.contactcontainer{
+    display:flex;
+    justify-content: center;
+    height:5vw;
+    width:100vw;
+}

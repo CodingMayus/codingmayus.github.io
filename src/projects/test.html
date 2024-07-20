@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .image-container {
+      position: relative; /* Positioning context for the overlay */
+      display: inline-block; /* Adjust based on layout needs */
+    }
+
+    .image-container img {
+      display: block; /* Ensures there are no gaps below the image */
+      width: 100%; /* Adjust width as needed */
+      height: auto; /* Maintain aspect ratio */
+    }
+
+    .overlay {
+      position: absolute; /* Position relative to the image-container */
+      top: 0;
+      left: 0;
+      width: 100%; /* Match the width of the image */
+      height: 100%; /* Match the height of the image */
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+      display: none; /* Hidden by default */
+      justify-content: center; /* Center content horizontally */
+      align-items: center; /* Center content vertically */
+      color: white; /* Text color */
+      text-align: center; /* Center text */
+    }
+
+    .image-container:hover .overlay {
+      display: flex; /* Show the overlay on hover */
+    }
+  </style>
+</head>
+<body>
+
+<div class="image-container">
+  <img src="placeholder.jpg" alt="Example Image">
+  <div class="overlay">
+    <p>Overlay Content</p>
+  </div>
+</div>
+
+</body>
+</html>

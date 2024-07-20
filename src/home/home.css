@@ -1,0 +1,103 @@
+.title{
+ text-align:center;
+ font-size: 2.5em;
+}
+.aboutcontainer{
+    text-align:center;
+    padding:5vh 5vh;
+    font-size:2.5em;
+    color:white;
+    background-color:blue;
+    height:95vh;
+}
+.imgcontainer{
+    padding-right:5vw;
+    min-width:42vw;
+}
+.identity{
+    display:flex;
+    justify-content: center;
+word-spacing:3vw;
+}
+.projectcontainer{
+    display:flex;
+
+    width:100vw;
+}
+.moreme{
+    text-decoration: none;
+    color:white;
+    padding-top:0;
+    font-size:0.68em;
+}
+#cover{
+    height:120vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#math{
+    color:blue;
+    
+}
+#coder{
+    color:red;
+}
+#runner{    
+    color:yellow;
+}
+#student{
+    color:green;
+}
+#knowme{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+border-color: none;
+width:15vw;
+height:10vh;
+background-color:red;
+margin-bottom:0;
+border-radius: 7vh;
+}
+#knowmecontainer{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    margin-top:5vh;
+}
+#lol{
+    height:1000vh;
+    background-color: blue;
+}
+#matthew{
+
+animation:zoomIn 1s;
+}
+.identity{
+    overflow:hidden; 
+    white-space:nowrap;
+    margin: 0 auto;
+    animation-delay:2s;
+    animation: slideIn 5s ;
+
+}
+
+@keyframes zoomIn{
+0%{
+    transform:scale(30);
+}
+100%{
+    transform:scale(1);
+}
+
+}
+@keyframes slideIn{
+  from{
+    width:0%;
+  }
+  to{
+    width:100%;
+  }
+}

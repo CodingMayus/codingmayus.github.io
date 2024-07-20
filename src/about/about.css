@@ -1,0 +1,24 @@
+h1{
+    text-align:center;
+}
+.profile{
+    margin:auto;
+}
+.aboutdetailscontainer{
+     display:flex; 
+     flex-direction:column;
+    justify-content: center;
+    padding:5vh 5vh;
+    color:white;
+}
+.abouttext{
+    color:black;
+    font-size:2em;
+    text-align:center;
+    padding-top:5vh; 
+    width:60vw;
+    margin:auto;
+}
+#me{
+    border-radius:2vw;
+}

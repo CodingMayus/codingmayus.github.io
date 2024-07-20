@@ -15,7 +15,7 @@ return (
             <a href="mailto:matthew_yu85@outlook.com">
                 <FontAwesomeIcon icon={faEnvelope} className="icon" />
             </a>
-            <a href="https::www.linkedin.com/matthewyuu">
+            <a href="https:www.linkedin.com/matthewyuu">
                 <FontAwesomeIcon icon={faLinkedin} className="icon" />
             </a>
             <a href="https://www.instagram.com/knowmayus_/">

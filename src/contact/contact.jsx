@@ -9,13 +9,13 @@ export default function Contact(){
 return (
     <>
         <div className="contactcontainer">
-            <a href="www.github.com/codingmayus">
+            <a href="https://www.github.com/codingmayus">
                 <FontAwesomeIcon icon={faGithub} className="icon" />
             </a>
             <a href="mailto:matthew_yu85@outlook.com">
                 <FontAwesomeIcon icon={faEnvelope} className="icon" />
             </a>
-            <a href="www.linkedin.com/matthewyuu">
+            <a href="https::www.linkedin.com/matthewyuu">
                 <FontAwesomeIcon icon={faLinkedin} className="icon" />
             </a>
             <a href="https://www.instagram.com/knowmayus_/">

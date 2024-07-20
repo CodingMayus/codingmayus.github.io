@@ -1,4 +1,5 @@
 import Navbar from '../navbar/navbar.jsx';
+import Contact from '../contact/contact.jsx';
 import './projects.css';
 import lemniscate from './lemniscate.png';
 import mentalhealth from './mentalhealth.png';
@@ -42,7 +43,9 @@ export default function Projects(){
 return (
 <>
 <Navbar/>
+
 <div className = 'title'><h1>My Projects</h1></div>
+<Contact/>
         {/* <Project imgg = '../projects/PTC.png' title = 'Sea Debris Ocean Promotion'/> */}
             {/*chronological order*/}
     <div className ='projectcontainer'>
@@ -59,7 +62,7 @@ return (
             <div className = 'column'>
             <Project img  ={lemniscate} title = 'Lemniscate' description = 'A collaborative note-taking website utilizing famous, organized note-taking templates.' link ='https://github.com/CodingMayus/lemniscate'/>
             <Project img = {mentalhealth} title = 'Mental Health App' description = 'Accessing OpenAPI to create a friend you can talk to.' link='https://github.com/CodingMayus/Mental-Health-PSA'/>
-            <Project img = {placeholderchecklist} title = 'Placeholder Checklist'description = 'Using Chrome.Storage API to create a personal TODO list.' link = 'https://github.com/CodingMayus/Check-List'/>
+            <Project img = {placeholderchecklist} title = 'Checklist Chrome Extension'description = 'Using Chrome.Storage API to create a personal TODO list.' link = 'https://github.com/CodingMayus/Check-List'/>
 
             </div>
             <div className =  'column'>
@@ -68,20 +71,6 @@ return (
 
             </div>
             </div>
-            {/* <div className= 'projectcontainer'>
-
-            <div className = 'column'>
-            <div className = 'project' style = {{height:'30vh',backgroundColor:'green'}}></div>
-            <div className = 'project' style = {{height:'30vh',backgroundColor:'red'}}></div>
-                </div>
-          
-            <div className = 'column'>
-            <div className = 'project' style = {{height:'50vh',backgroundColor:'green'}}></div>
-       <div className = 'project' style = {{height:'50vh',backgroundColor:'green'}}></div>
-       <div className = 'project' style = {{height:'50vh',backgroundColor:'green'}}></div> 
-                </div>
-            
-                </div> */}
 
 
 </>);

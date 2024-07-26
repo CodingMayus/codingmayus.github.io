@@ -6,6 +6,7 @@ import mentalhealth from './mentalhealth.png';
 import placeholderchecklist from './placeholderchecklist.png';
 import PTC from './PTC.png';
 import miliblock from './miliblock.png';
+import debg from './DEbackground.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import {faLinkedin, faGithub, faInstagram, faStrava } from '@fortawesome/free-brands-svg-icons';
@@ -66,6 +67,7 @@ return (
 
             </div>
             <div className =  'column'>
+            <Project img = {debg} title = 'DE Background' description = 'In the SHAD program, we came up with a solution to a specific part of the Green Energy issue affecting Youth.' link = 'https://github.com/viridis-expo/viridis-expo.github.io'/>
             <Project img = {PTC} title = 'Sea Debris Ocean Promotion' description = ' Using Leaflet Js as a medium, predict where ocean trash will likely end up on a map.' link = 'https://github.com/CodingMayus/PTC'/>
             <Project img  ={miliblock} title = 'Miliblock' description  = 'Personalizable website blocker chrome extension that motivates you. ' link = 'https://github.com/CodingMayus/chrome-extension'/>
 

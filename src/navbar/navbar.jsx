@@ -22,7 +22,7 @@ export default function Navbar() {
     }
     return (
    <>
- <button className='shrinkbutton' onClick ={handleClick} ></button>
+<img className='shrinkbutton' src={require('./menuicon.png')} onClick = {handleClick}/> 
                <div className = 'navbar' style = {{
 transition:'transform 1s ease',
 transform: on ? 'translateX(0px)' : 'translateX(-300vw)'}}>

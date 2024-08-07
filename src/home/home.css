@@ -109,7 +109,8 @@ animation:zoomIn 1s;
         font-size: 1.5em;
     }
     .aboutcontainer {
-        font-size: 2em;
+        font-size: 1.5em;
+        
     }
     .identity{
         display:flex;

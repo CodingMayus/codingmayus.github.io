@@ -56,7 +56,8 @@
     z-index: 3213;
     padding:5vh;
     height:60%;
-    overflow:scroll;
+    overflow:auto;
+    overflow-x:hidden;
 }
 
   @media screen and (max-width: 820px){

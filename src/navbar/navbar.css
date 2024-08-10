@@ -6,6 +6,7 @@
 background-color: white;
     /* position:sticky; */
     position:fixed;
+    z-index:100;
     top:0;
     
    /* // background-color: #f00000; */

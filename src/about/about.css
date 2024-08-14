@@ -19,6 +19,28 @@ h1{
     width:60vw;
     margin:auto;
 }
+.demonstrationcontainer{
+    display:flex;
+    
+}
+#abouttitle{
+margin-top:17vh;
+}
+#hobbytitle{
+    text-align:center;
+    font-weight: 0;
+}
 #me{
     border-radius:2vw;
+    height:50vh;
+}
+@media screen and (max-width: 768px) {
+    /* .aboutdetailscontainer{
+        padding:5vh 0;
+    } */
+    .abouttext{
+        font-size: 1em;
+        width:80vw;
+    }
+    
 }

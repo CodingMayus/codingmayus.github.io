@@ -37,7 +37,7 @@ transform: on ? 'translateX(0px)' : 'translateX(-300vw)'}}>
 <Link to ='/projects' className = 'link3'>Projects</Link>
 </div>
 <div className='feature'>
-    <a href  ='/matthresume.pdf' className = 'link4'>Resume</a>
+    <a href  ='/matthewresume.pdf' className = 'link4'>Resume</a>
 {/*Link to couldve worked with browserrouting at least since im using hashrouting it messes things up.*/ }
 </div>
 {/* <div className='feature'>

@@ -12,6 +12,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import {faLinkedin, faGithub, faInstagram, faStrava } from '@fortawesome/free-brands-svg-icons';
 
+
+//add more details and ways for the user to learn more ( devposts, live demos, etc...)
+
 function Project({img, title, description, link}){
     // console.log(img);
     // console.log(img.width);

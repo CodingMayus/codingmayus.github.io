@@ -19,16 +19,38 @@ h1{
     width:60vw;
     margin:auto;
 }
-.demonstrationcontainer{
+.hobbycontainer{
     display:flex;
+    justify-content: center;
+padding:5px;
+    flex-direction: column;
+    color:black;
+}
+.generallink{
+    color:blue;
+    text-decoration:none;
     
 }
+.generallink:hover {
+    animation: colorChange 4s infinite;
+}
+
+@keyframes colorChange {
+    0% { color: blue; }
+    25% { color: red; }
+    50% { color: green; }
+    75% { color: yellow; }
+    100% { color: blue; }
+}
+
 #abouttitle{
 margin-top:17vh;
 }
 #hobbytitle{
+    width:100%;
     text-align:center;
-    font-weight: 0;
+    font-size:0.8em;
+    font-weight:0.8em;
 }
 #me{
     border-radius:2vw;

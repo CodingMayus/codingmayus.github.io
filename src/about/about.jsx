@@ -56,7 +56,7 @@ Here you can find recent events, my contacts, achievements, my hobbies, my proje
     <img src = {require('./cringe.png')} alt = 'profile' id = 'me'/>
     </div>
 <div></div>
-<div className = 'abouttext'>  I started competitive programming in grade 9 after learning I was already behind my role-models who started much earlier.  Throughout the process, I learned a lot, had many great memories solving hundreds of problems across multiple online judges.  Every problem is unique and more complex, but that usually means a more clever and interesting way to solve them!  
+<div className = 'abouttext'>  I started competitive programming in grade 9 after learning I was already behind my role-models who started much earlier.  Throughout the process, I learned a lot and made many great memories solving hundreds of problems across multiple online judges.  Most questions were unique and different from math questions, but that also meant the solutions were just as interesting.  My goal is to become a grandmaster one day.
 </div>
 <Flexer title = 'DMOJ' link='https://dmoj.ca/user/CodeMayus'/> 
 <Flexer title = 'Codeforces' link='https://codeforces.com/profile/CodeMayus'/>
@@ -68,7 +68,7 @@ Here you can find recent events, my contacts, achievements, my hobbies, my proje
     <img src = {require('./race.png')} alt = 'profile' id = 'me'/>
     </div>
 <div></div>
-<div className = 'abouttext'>  Running has been a big part of my life.  I started Cross Country by chance in grade 3 and from then on have succeeded quite well in many races in elementary.   My main goals in running is trying to get to OFSAA and get fast.  I run everyday, do workouts both on the track and the gym ( thrice a week ), to maintain fitness and strength.  Find me running on Strava by clicking the logo below in the footer, or <a className = 'generallink' href="https://www.strava.com/athletes/109665407" target="_blank" rel="noopener noreferrer">here</a>.
+<div className = 'abouttext'>  Running has been a big part of my life.  I started Cross Country by chance in grade 3 and from then on have succeeded quite well in many races in elementary.   My main goals in running is trying to get to OFSAA and get fast.  I run everyday, do workouts both on the track and the gym ( thrice a week ), to maintain fitness and strength.  Find me running on Strava by clicking the corresponding logo below in the footer, or <a className = 'generallink' href="https://www.strava.com/athletes/109665407" target="_blank" rel="noopener noreferrer">here</a>.
 </div>
 </div>
 <h1 id= 'abouttitle'>Mathematics</h1>

@@ -23,7 +23,7 @@ function Flexer({title, icon,link}){
     return(
         <>
         <div className = 'hobbycontainer'>
-            <h2 id = 'hobbytitle'><a href = {link}> {title}</a>
+            <h2 id = 'hobbytitle'><a className = 'generallink' href = {link}> {title}</a>
            </h2>
            {/* <div className = ''>{icon}</div> */}
 

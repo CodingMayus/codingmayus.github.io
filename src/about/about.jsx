@@ -68,7 +68,7 @@ Here you can find recent events, my contacts, achievements, my hobbies, my proje
     <img src = {require('./race.png')} alt = 'profile' id = 'me'/>
     </div>
 <div></div>
-<div className = 'abouttext'>  Running has been a big part of my life.  I started Cross Country by chance in grade 3 and from then on have succeeded quite well in many races in elementary.   My main goals in running is trying to get to OFSAA and get fast.  I run everyday, do workouts both on the track and the gym ( thrice a week ), to maintain fitness and strength.  Find me running on Strava by clicking the corresponding logo below in the footer, or <a className = 'generallink' href="https://www.strava.com/athletes/109665407" target="_blank" rel="noopener noreferrer">here</a>.
+<div className = 'abouttext'>  Running has been a big part of my life.  I started Cross Country by chance in grade 3 and from then on have succeeded quite well in many races in elementary.   My main goal in running has always been trying to get to OFSAA which means to get faster.  I run everyday, do workouts both on the track and the gym ( thrice a week ), to maintain fitness and strength.  You can track my progress on Strava — which can be accessed by by clicking the corresponding logo below in the footer, or <a className = 'generallink' href="https://www.strava.com/athletes/109665407" target="_blank" rel="noopener noreferrer">here</a>.
 </div>
 </div>
 <h1 id= 'abouttitle'>Mathematics</h1>

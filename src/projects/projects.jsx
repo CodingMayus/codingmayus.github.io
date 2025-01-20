@@ -8,6 +8,7 @@ import PTC from './PTC.png';
 import miliblock from './miliblock.png';
 import debg from './DEbackground.png';
 import workstation from './workstation.jpg';
+import biasbuster from './biasbuster1.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import {faLinkedin, faGithub, faInstagram, faStrava } from '@fortawesome/free-brands-svg-icons';
@@ -72,10 +73,10 @@ return (
          
             </div>
             <div className =  'column'>
+            <Project img = {biasbuster} title = 'Bias Buster' description = 'BiasBuster shows the newest generation (gen alpha) the unbiased news and the various biases that take place on a comedic and educational level.' link = 'https://github.com/CodingMayus/Bias-Buster'/>
             <Project img = {debg} title = 'Design Project' description = 'In the SHAD program, we came up with a solution to a specific part of the Green Energy issue affecting Youth.' link = 'https://github.com/viridis-expo/viridis-expo.github.io'/>
             <Project img = {PTC} title = 'Sea Debris Ocean Promotion' description = ' Using Leaflet Js as a medium, predict where ocean trash will likely end up on a map.' link = 'https://github.com/CodingMayus/PTC'/>
             <Project img  ={miliblock} title = 'Miliblock' description  = 'Personalizable website blocker chrome extension that motivates you. ' link = 'https://github.com/CodingMayus/chrome-extension'/>
-
             </div>
             </div>
 

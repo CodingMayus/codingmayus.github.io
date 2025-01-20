@@ -13,7 +13,6 @@ import Contact from './contact/contact.jsx';
 //        <Route path = '/resume' component = {<Resume/>}/>
 //<Route path = '/contact' component = {<Contact/>}/>
 function App() {
-
   return (
     <>            
      <HashRouter>
@@ -25,11 +24,7 @@ function App() {
   <Route path ='/contact' element ={<Contact/>}/>
     </Routes>
   </HashRouter>
-    
-  
     </>
-
   );
 }
-
 export default App;

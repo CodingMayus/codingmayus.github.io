@@ -42,7 +42,7 @@ function Introduction(){
             <div className='aboutcontainer'>
                 <h1>MATTHEW 101</h1>
                 <div className='about'>
-                  Hello.  I am a 16 year old International Baccaureate student from Canada. I am currently investing my time mainly in coding, math, and running — all huge passions of mine.  I love the competitions and the Art of Giving It My All.
+                  Hello.  I am a 17 year old International Baccaureate student from Canada. I am currently investing my time mainly in coding, math, and running — all huge passions of mine.  I love the competitions and the Art of Giving It My All.
                 </div>
                 <div id = 'knowmecontainer'>
                 <div id = 'knowme'>

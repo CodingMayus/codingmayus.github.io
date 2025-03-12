@@ -40,7 +40,7 @@ return(
 <h1 id= 'abouttitle'>About Me</h1>
 <div className ='aboutdetailscontainer'>
     <div className ='profile'>
-    <img src = {require('./me2.jpg')} alt = 'profile' id = 'me'/>
+    <img src = {require('./fancyme.jpg')} alt = 'profile' id = 'me'/>
     </div>
 <div></div>
 <div className = 'abouttext'>  Carrying on from my brief introduction: Hello my name is Matthew Yu from Aurora Canada.  I am currently in High school with aspirations to study Computer Science and Math.
@@ -79,6 +79,21 @@ Here you can find recent events, my contacts, achievements, my hobbies, my proje
 <div></div>
 <div className = 'abouttext'>  I first found out about Math contests in grade 7, and from there I have always been interested in math.   I love the completeness math maintains with proofs, and the interesting and beautiful solutions in hard problems.  Though I aim higher, I have consistently made distinction for most math competitions like the Waterloo contests, American Mathematics Competitions, and the Canadian Open Mathematical Challenge.  Despite not being there yet, I still enjoy learning Olympiad-level math which I find the most interesting.  <a href  ='/math-paper.pdf' className = 'generallink'> Here </a>
   is a math paper I wrote for the International Baccaureate program that rigoriously develops the concept of Barycentric Coordinates to solve International Math Olympiad questions.
+</div>
+</div>
+<h1 id = 'abouttitle'>Operational Research</h1>
+<div className ='aboutdetailscontainer'>
+    <div className ='profile'>
+    {/* <img src = {require('./debate.png')} alt = 'profile' id = 'me'/> */}
+    </div>
+<div></div>
+<img src = {require('./500citytour.png')} alt = 'profile' id = 'tsp'/>
+<div className = 'abouttext'> 
+One of the main reasons I stayed in the IB program is the opportunity to write research papers in various subjects. The penultimate paper is the Extended Essay, a paper written over the two years of the IB program.
+
+I used this opportunity to explore the intersection of my interests in the optimization and efficiency of competitive programming and the rigor of mathematics to pursue solutions to the "Traveling Salesman Problem," a problem with inspiring implications if a suitably fast solution is found. For those curious, the problem is simple to state: What is the shortest path from a given starting node to visit every node exactly once in a complete graph before returning to the starting node? I highly recommend the books and resources curated by William Cook, a leader in the field.
+
+My essay will be uploaded shortly after I confirm that I am allowed to, as it is still being assessed.
 </div>
 </div>
 {/* <Hobby title = 'Math Contests !'/> */}

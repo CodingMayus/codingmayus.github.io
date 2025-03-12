@@ -12,7 +12,7 @@ import biasbuster from './biasbuster1.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import {faLinkedin, faGithub, faInstagram, faStrava } from '@fortawesome/free-brands-svg-icons';
-
+import koicash from './koicash2.png';
 
 //add more details and ways for the user to learn more ( devposts, live demos, etc...)
 
@@ -70,9 +70,9 @@ return (
             <Project img  ={lemniscate} title = 'Lemniscate' description = 'A collaborative note-taking website utilizing famous, organized note-taking templates.' link ='https://github.com/CodingMayus/lemniscate'/>
             <Project img = {mentalhealth} title = 'Mental Health App' description = 'Accessing OpenAPI to create a friend you can talk to.' link='https://github.com/CodingMayus/Mental-Health-PSA'/>
             <Project img = {placeholderchecklist} title = 'Checklist Chrome Extension'description = 'Using Chrome.Storage API to create a personal TODO list.' link = 'https://github.com/CodingMayus/Check-List'/>
-         
             </div>
             <div className =  'column'>
+            <Project img = {koicash} title = 'KoiCash' description = 'KoiCash or "Coy" Cash ( get it ), is personal finance app that acts as a fully secure financial advisor to achieve your financial dreams.' link = 'https://github.com/CodingMayus/KoiCash'/>
             <Project img = {biasbuster} title = 'Bias Buster' description = 'BiasBuster shows the newest generation (gen alpha) the unbiased news and the various biases that take place on a comedic and educational level.' link = 'https://github.com/CodingMayus/Bias-Buster'/>
             <Project img = {debg} title = 'Design Project' description = 'In the SHAD program, we came up with a solution to a specific part of the Green Energy issue affecting Youth.' link = 'https://github.com/viridis-expo/viridis-expo.github.io'/>
             <Project img = {PTC} title = 'Sea Debris Ocean Promotion' description = ' Using Leaflet Js as a medium, predict where ocean trash will likely end up on a map.' link = 'https://github.com/CodingMayus/PTC'/>

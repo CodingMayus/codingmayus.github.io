@@ -56,6 +56,10 @@ margin-top:17vh;
     border-radius:2vw;
     height:50vh;
 }
+#tsp{
+    border-radius:2vw;
+    height:80vh;
+}
 @media screen and (max-width: 768px) {
     /* .aboutdetailscontainer{
         padding:5vh 0;

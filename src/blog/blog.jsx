@@ -14,10 +14,10 @@ export default function Blog() {
                 <h2 className = "blogh2">Warning: Although these thoughts reveal more clearly how I navigate through life, reading it may not be for everyone.   </h2>
                 </div>
                 <div className='blog'>
-                    <h2 classname = "blogh2">Entry 1</h2>
+                    <h2 className = "blogh2">Entry 1</h2>
                     <h3 className = "blogh3">2:02 AM - May 5th, 2025</h3>
                     <h4 className = "blogh4">My Night-time Thoughts on Highschool</h4>
-                    <p lassName = "blogp">
+                    <p className = "blogp">
                     I am almost finished highschool—I'm well into the second semester of grade 12 and as an IB student, all there is left are exams, which means, I have already started skipping to prepare for them.   And as I reflect over my high school years, I honestly feel disappointed.  I came into highschool aiming to be the best at everything I set myself in, dedicated to being productive with my life so that when I would look back at my high-school years, I would not feel as disappointed as I do now.   I’m not only not the best in my passions of running, coding, and math—which I hoped to be, but I have also not tried my very hardest in school.  I came into highschool aiming to have no regrets, and honestly today, that's all I have now. I achieved almost none of the goals I have set for myself which I whole-heartedly believe I could have achieved like qualifying for Math and Coding Olympiads
 or getting into MIT...
 </p>

@@ -46,9 +46,12 @@ return(
 <div className = 'abouttext'>  Carrying on from my brief introduction: Hello my name is Matthew Yu from Aurora Canada.  I am currently in High school with aspirations to study Computer Science and Math.
     
 I always had big dreams. My primary goal ever since grade 7 was to succeed in Math contests, and now Coding contests, so when I am not busy with running hundreds of kilometers, lifting thousands of pounds, studying for exams, or simply laughing at Instagram Reels, you will find me hard at work to improve my problem solving skills.
-
-Here you can find recent events, my contacts, achievements, my hobbies, my projects, my journey, my life.  I hope you learn something new about me - maybe we can even work together in the future!  
+In this website, you can find recent events, my contacts, achievements, my hobbies, my projects, my journey, my life.  I hope you learn something new about me - maybe we can even work together in the future!  
+<div>
 </div>
+ Check out my <a className = "outsiderlink" href = "https://codingmayus.github.io/#/mythoughts">blog</a> to get a deeper look into my thoughts or simply scroll below to see my interests. 
+</div>
+<div></div>
 </div>
 <h1 id= 'abouttitle'>Competitive Programming</h1>
 <div className ='aboutdetailscontainer'>

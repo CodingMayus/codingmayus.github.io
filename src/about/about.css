@@ -70,3 +70,10 @@ margin-top:17vh;
     }
     
 }
+.outsiderlink{
+    text-decoration: none;
+    color:blue;
+}
+.outsiderlink:hover{
+    animation: colorChange 4s infinite;
+}

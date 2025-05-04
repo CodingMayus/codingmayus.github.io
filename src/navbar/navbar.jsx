@@ -30,6 +30,7 @@ transform: on ? 'translateX(0px)' : 'translateX(-300vw)'}}>
     <div id='name'>
 <Link to ='/' className = 'link1'>Matthew Yu</Link>
 </div>
+
 <div className ='feature'>
 <Link to='/about' className = 'link2'>About</Link>
 </div>
@@ -38,7 +39,11 @@ transform: on ? 'translateX(0px)' : 'translateX(-300vw)'}}>
 </div>
 <div className='feature'>
     <a href  ='/matthewresume.pdf' className = 'link4'>Resume</a>
+    
 {/*Link to couldve worked with browserrouting at least since im using hashrouting it messes things up.*/ }
+</div>
+<div className = 'feature'>
+<Link to ='/mythoughts' className = 'link1'>Thoughts</Link>
 </div>
 {/* <div className='feature'>
 <Link to='/contact' className = 'link5'>Contact</Link>

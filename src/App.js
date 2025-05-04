@@ -12,9 +12,11 @@ import NotFound from './404/notfound.jsx';
 import Contact from './contact/contact.jsx';
 //        <Route path = '/resume' component = {<Resume/>}/>
 //<Route path = '/contact' component = {<Contact/>}/>
+import Blog from './blog/blog.jsx';
 function App() {
   return (
-    <>            
+    <>      
+        {/* <p>hello you have to have javascript enabled as this website dynamically generates content using it.</p>       */}
      <HashRouter>
     <Routes>
   <Route index element = {<Home/>}/>
@@ -22,6 +24,7 @@ function App() {
   <Route path = '/projects' element = {<Projects/>}/>
   <Route path = '*' element ={<NotFound/>}/>
   <Route path ='/contact' element ={<Contact/>}/>
+  <Route path ='/mythoughts' element ={<Blog/>} />
     </Routes>
   </HashRouter>
     </>

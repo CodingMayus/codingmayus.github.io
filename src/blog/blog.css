@@ -1,0 +1,38 @@
+
+.warning{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    color:red;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+    padding: 0 5vw;
+    padding-top:5vh;
+    color: black;
+}
+h2{
+    font-size: 2em;
+    text-align: center;
+    padding: 0 5vw;
+}
+h3{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0 5vw;
+    color: black;
+}
+h4{
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0 5vw;
+    color: black;
+}
+p{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0 5vw;
+    color: black;
+}

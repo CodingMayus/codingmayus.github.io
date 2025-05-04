@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import {faLinkedin, faGithub, faInstagram, faStrava } from '@fortawesome/free-brands-svg-icons';
+import {faLinkedin, faGithub, faInstagram, faStrava,faYoutube } from '@fortawesome/free-brands-svg-icons';
 import './contact.css';
 import Navbar from '../navbar/navbar.jsx';
 
@@ -21,6 +21,9 @@ return (
             <a href="https://www.instagram.com/knowmayus_/">
                 <FontAwesomeIcon icon={faInstagram} className="icon" />
             </a>
+            <a href = "https://www.youtube.com/@knowmayus" >
+                <FontAwesomeIcon icon={faYoutube} className="icon" />
+                </a>
             <a href="https://www.strava.com/athletes/109665407">
                 <FontAwesomeIcon icon={faStrava} className="icon" />
                 </a>

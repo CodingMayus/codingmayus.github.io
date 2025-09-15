@@ -1,5 +1,6 @@
 import Navbar from '../navbar/navbar.jsx';
 import Contact from '../contact/contact.jsx';
+// import Link from "react"
 import './about.css';
 //TODO:
 //Codeforces
@@ -40,7 +41,7 @@ return(
 <h1 id= 'abouttitle'>About Me</h1>
 <div className ='aboutdetailscontainer'>
     <div className ='profile'>
-    <img src = {require('./fancyme.jpg')} alt = 'profile' id = 'me'/>
+    <img src = {require('./fancyme.jpg')}  alt = 'profile' id = 'me' className = "aboutimg"/>
     </div>
 <div></div>
 <div className = 'abouttext'>  Carrying on from my brief introduction: Hello my name is Matthew Yu from Aurora Canada.  I am currently in High school with aspirations to study Computer Science and Math.
@@ -56,19 +57,19 @@ In this website, you can find recent events, my contacts, achievements, my hobbi
 <h1 id= 'abouttitle'>Competitive Programming</h1>
 <div className ='aboutdetailscontainer'>
 <div className ='profile'>
-    <img src = {require('./cringe.png')} alt = 'profile' id = 'me'/>
+    <img src = {require('./cringe.png')}  alt = 'profile' id = 'codycody' className = "aboutimg"/>
     </div>
 <div></div>
-<div className = 'abouttext'>  I started competitive programming in grade 9 after learning I was already behind my role-models who started much earlier.  Throughout the process, I learned a lot and made many great memories solving hundreds of problems across multiple online judges.  Most questions were unique and different from math questions, but that also meant the solutions were just as interesting.  My goal is to become a grandmaster one day.
+<div className = 'abouttext'>  I started competitive programming in grade 9 after learning I was already behind my role-models who started much earlier.  Throughout the process, I learned a lot and made many great memories solving hundreds of problems across multiple online judges.  Most questions were unique and different from math questions, but that also meant the solutions were just as interesting.  My goal is to become a grandmaster one day.  I recorded some live streams and videos that showed a small part of the journey.  Feel free to check them out <a className = 'generallink' href="https://www.youtube.com/@knowmayus/featured" text-decorations ="none">here</a>!
 </div>
-<Flexer title = 'DMOJ' link='https://dmoj.ca/user/CodeMayus'/> 
-<Flexer title = 'Codeforces' link='https://codeforces.com/profile/CodeMayus'/>
-<Flexer title = 'CSES' link='https://cses.fi/user/152930'/>
+<Flexer title = 'DMOJ - Top 700' link='https://dmoj.ca/user/CodeMayus'/> 
+<Flexer title = 'Codeforces - Pupil' link='https://codeforces.com/profile/CodeMayus'/>
+<Flexer title = 'CSES - ~50/300 ( tryna solve them all tho )' link='https://cses.fi/user/152930'/>
 </div>
 <h1 id= 'abouttitle'>Running</h1>
 <div className ='aboutdetailscontainer'>
     <div className ='profile'>
-    <img src = {require('./race.png')} alt = 'profile' id = 'me'/>
+    <img src = {require('./running.jpg')} alt = 'profile' id = 'me' className = "aboutimg"/>
     </div>
 <div></div>
 <div className = 'abouttext'>  Running has been a big part of my life.  I started Cross Country by chance in grade 3 and from then on have succeeded quite well in many races throughout elementary.   My main goal in running has always been to get to OFSAA which means to get faster.  I run everyday, do workouts both on the track and the gym ( thrice a week ), to maintain fitness and strength.  You can track my progress on Strava — which can be accessed by clicking the corresponding logo below in the footer, or <a className = 'generallink' href="https://www.strava.com/athletes/109665407" target="_blank" rel="noopener noreferrer">here</a>.
@@ -77,7 +78,7 @@ In this website, you can find recent events, my contacts, achievements, my hobbi
 <h1 id= 'abouttitle'>Mathematics</h1>
 <div className ='aboutdetailscontainer'>
     <div className ='profile'>
-    <img src = {require('./imo2014p4.png')} alt = 'profile' id = 'me'/>
+    <img src = {require('./imo2014p4.png')} alt = 'profile' id = 'mathymathmath' className = "aboutimg"/>
     </div>
 <div></div>
 <div className = 'abouttext'>  I first found out about Math contests in grade 7, and from there I have always been interested in math.   I love the completeness math maintains with proofs, and the interesting and beautiful solutions in hard problems.  Though I aim higher, I have consistently made distinction for most math competitions like the Waterloo contests, American Mathematics Competitions, and the Canadian Open Mathematical Challenge.  Despite not being there yet, I still enjoy learning Olympiad-level math which I find the most interesting.  <a href  ='/math-paper.pdf' className = 'generallink'> Here </a>
@@ -90,13 +91,15 @@ In this website, you can find recent events, my contacts, achievements, my hobbi
     {/* <img src = {require('./debate.png')} alt = 'profile' id = 'me'/> */}
     </div>
 <div></div>
-<img src = {require('./500citytour.png')} alt = 'profile' id = 'tsp'/>
+<div className = "profile">
+<img src = {require('./500citytour.png')} alt = 'profile' id = 'tsp'  className = "aboutimg"/>
+</div>
 <div className = 'abouttext'> 
 One of the main reasons I stayed in the IB program is the opportunity to write research papers in various subjects. The penultimate paper is the Extended Essay, a paper written over the two years of the IB program.
 
-I used this opportunity to explore the intersection of my interests in the optimization and efficiency of competitive programming and the rigor of mathematics to pursue solutions to the "Traveling Salesman Problem," a problem with inspiring implications if a suitably fast solution is found. For those curious, the problem is simple to state: What is the shortest path from a given starting node to visit every node exactly once in a complete graph before returning to the starting node? I highly recommend the books and resources curated by William Cook, a leader in the field.
+I used this opportunity to explore the intersection of my interests in the optimization and efficiency of competitive programming and the rigor of mathematics to pursue solutions to the "Traveling Salesman Problem," a problem with inspiring implications if a suitably fast solution is found. For those curious, the problem is simple to state: What is the shortest path from a given starting node to visit every node exactly once in a complete graph before returning to the starting node? I highly recommend the books and resources curated by William Cook, a leader in the field.  Looking back, the clear explanations and the frequent reminders of the importance and implications of the problem really made the experience enjoyable.
 
-My essay will be uploaded shortly after I confirm that I am allowed to, as it is still being assessed.
+A cool fact is, although I had interest in the problem for a year at that point, the paper itself took a week to write: <a href ="/extended_essay.pdf" className ="generallink"> Here's</a> the paper.  I was going to implement the algorithm myself only to realize the current best modern exact algorithm solvers had over 100,000 lines of code and considering the 4000-word limit, it was not right to leave out so much details.  Instead, the paper explored the main ideas behind the forerunners of the problem, those who chose to "bash on regardless," to bash their way to a sufficiently fast <strong>exact</strong> algorithm for the TSP, and those who chose to forego some degree of accuracy to create applicability to the everyday person.  
 </div>
 </div>
 {/* <Hobby title = 'Math Contests !'/> */}

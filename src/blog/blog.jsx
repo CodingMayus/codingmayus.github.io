@@ -13,6 +13,23 @@ export default function Blog() {
                 <div className = 'warning'>
                 <h2 className = "blogh2">Warning: Although these thoughts reveal more clearly how I navigate through life, reading it may not be for everyone.   </h2>
                 </div>
+                <div className = 'blog'>
+                    <h2 className = "blogh2"> Entry 2</h2>
+                    <h3 className = "blogh3">10:37 PM - September 14th, 2025</h3>
+                    <h4 className = "blogh4">My New Direction— My Last Chance</h4>
+                    <p className = "blogp">
+                        The rejection from my dream programs were inevitable.  If I had no belief in myself then why would the universities.   But upon sculling and hitting an intense leg day, I realized something.  Its not over.  I still have a chance to get back on the right direction, an opportunity risky but my only chance left.: Transfer.   Although risky and often frowned upon by many, I honestly don't give a fuck.  If its a path to my dreams, a path to correct my mistakes in the past, then I will take it.     
+                    </p>
+                        <p className = "blogp">
+                            Currently, its near the beginning of university, my ego already put myself in the 3 advanced courses: Math 145, 147, and CS 145, which honestly was not that bad- there is no stress greater than the minutes leading up to an important cross country race, learning the 4 entire courses in the span of two weeks,writing a 4000-word essay in four days, the unfairiness of IB English in which no matter how much effort I put in I see no reward.  But at last, although it hurts me, I may have to drop all these courses.  Although I came to university to learn, grow, to finally develop my problem-solving skills in a formal setting instead of just from textbooks— to finally learn from like-minded peers, and a funny, genuine, and inspiring professors, found in these advanced courses, I have a responsibility to my future-self to gain high-marks, not only to transfer and find co-op and internships, but not make the same mistake twice.     
+                    </p>
+                         <p className = "blogp">
+                    I found myself in a similar situation like this, and that was questioning if I should stay in IB, or not.  Ever since grade 6, I always wanted to go to IB, I wanted to challenge, I wanted to go to a famous program to be someone, and this childhood dream made me adamanant in staying in IB.  Although I made life-long friends and learned so much, 
+                    </p>
+                       <p className = "blogp">
+                             But another side of me, wants to take the challenge, its who I am.  Its only through challenges where I genuinely feel alive, to continiously improve is a philsophy.   So although theres hope to correct my wrongs- to fulfill my true potiental, I find myself in conflict.   
+                    </p>
+                </div>
                 <div className='blog'>
                     <h2 className = "blogh2">Entry 1</h2>
                     <h3 className = "blogh3">2:02 AM - May 5th, 2025</h3>

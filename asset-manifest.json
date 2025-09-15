@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.22583128.css",
-    "main.js": "/static/js/main.7041cb70.js",
+    "main.css": "/static/css/main.796d276e.css",
+    "main.js": "/static/js/main.8b56a231.js",
     "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
     "static/media/mentalhealth.png": "/static/media/mentalhealth.9d97b19fef2b0fe53b1b.png",
     "static/media/fancyme.jpg": "/static/media/fancyme.b1472b06a29a4081ffb7.jpg",
     "static/media/PTC.png": "/static/media/PTC.6fceea53d5a5d1b771d8.png",
     "static/media/biasbuster1.png": "/static/media/biasbuster1.b2d4a4032216c091a952.png",
-    "static/media/race.png": "/static/media/race.ddcac73de1e9eeb2f8ca.png",
     "static/media/brightRoman.ttf": "/static/media/brightRoman.cf09af08bf0bf4996d17.ttf",
+    "static/media/running.jpg": "/static/media/running.5abc7a783f6e6fde6dd9.jpg",
     "static/media/miliblock.png": "/static/media/miliblock.d89c8f3ede1943195e27.png",
     "static/media/koicash2.png": "/static/media/koicash2.22edbd92f04f8ce44bdb.png",
     "static/media/workstation.jpg": "/static/media/workstation.ad963f95a6ebfc043bf7.jpg",
@@ -21,12 +21,12 @@
     "static/media/me.webp": "/static/media/me.98325b83a96a1c297ca6.webp",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.22583128.css.map": "/static/css/main.22583128.css.map",
-    "main.7041cb70.js.map": "/static/js/main.7041cb70.js.map",
+    "main.796d276e.css.map": "/static/css/main.796d276e.css.map",
+    "main.8b56a231.js.map": "/static/js/main.8b56a231.js.map",
     "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22583128.css",
-    "static/js/main.7041cb70.js"
+    "static/css/main.796d276e.css",
+    "static/js/main.8b56a231.js"
   ]
 }

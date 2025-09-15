@@ -13,7 +13,7 @@ export default function Blog() {
                 <div className = 'warning'>
                 <h2 className = "blogh2">Warning: Although these thoughts reveal more clearly how I navigate through life, reading it may not be for everyone.   </h2>
                 </div>
-                <div className = 'blog'>
+                {/* <div className = 'blog'>
                     <h2 className = "blogh2"> Entry 2</h2>
                     <h3 className = "blogh3">10:37 PM - September 14th, 2025</h3>
                     <h4 className = "blogh4">My New Direction— My Last Chance</h4>
@@ -29,7 +29,7 @@ export default function Blog() {
                        <p className = "blogp">
                              But another side of me, wants to take the challenge, its who I am.  Its only through challenges where I genuinely feel alive, to continiously improve is a philsophy.   So although theres hope to correct my wrongs- to fulfill my true potiental, I find myself in conflict.   
                     </p>
-                </div>
+                </div> */}
                 <div className='blog'>
                     <h2 className = "blogh2">Entry 1</h2>
                     <h3 className = "blogh3">2:02 AM - May 5th, 2025</h3>

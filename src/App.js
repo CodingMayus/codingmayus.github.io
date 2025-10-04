@@ -8,6 +8,7 @@ import Home from './home/home.jsx';
 import About from './about/about.jsx';
 import Projects from './projects/projects.jsx';
 import NotFound from './404/notfound.jsx';
+import ScrollToTop from './misc/ScrollToTop.jsx';
 // import Resume from './resume/resume.jsx';
 import Contact from './contact/contact.jsx';
 //        <Route path = '/resume' component = {<Resume/>}/>
@@ -18,6 +19,7 @@ function App() {
     <>      
         {/* <p>hello you have to have javascript enabled as this website dynamically generates content using it.</p>       */}
      <HashRouter>
+      <ScrollToTop/>
     <Routes>
   <Route index element = {<Home/>}/>
   <Route path = '/about' element = {<About/>}/>

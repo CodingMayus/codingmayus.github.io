@@ -71,10 +71,18 @@ border-radius: 7vh;
     height:1000vh;
     background-color: blue;
 }
-#matthew{
+/* #matthew{
 
 animation:zoomIn 1s;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 2px;
+} */
+ #matthew {
+  animation: zoomIn 1s;
+  font-family: "Bebas Neue", "Anton", "League Spartan", sans-serif;
+  letter-spacing: 2px;
 }
+
 .identity{
     display:flex;
     overflow:hidden; 

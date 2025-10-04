@@ -70,8 +70,8 @@ function Cover(){
     return( <div id='cover'>
         <img></img>
         <div className='title'>
-            <h3> Hello ! My name is </h3>
-            <h1 id = 'matthew'>Matthew Yu</h1>
+            <h3> Hello👋  I'm </h3>
+            <h1 id = 'matthew'>Matthew Yu,</h1>
             <div className ='identity'>
             <h4>
                 <span id='math'>Mathematician </span> <span id='coder'> Coder </span> <span id='runner'> Runner </span> <span id='student'> Student</span>

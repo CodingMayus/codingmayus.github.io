@@ -50,7 +50,7 @@ I always had big dreams. My primary goal ever since grade 7 was to succeed in Ma
 In this website, you can find recent events, my contacts, achievements, my hobbies, my projects, my journey, my life.  I hope you learn something new about me - maybe we can even work together in the future!  
 <div>
 </div>
- Check out my <a className = "outsiderlink" href = "https://codingmayus.github.io/#/mythoughts">blog</a> to get a deeper look into my thoughts or simply scroll below to see my interests. 
+ {/* Check out my <a className = "outsiderlink" href = "https://codingmayus.github.io/#/mythoughts">blog</a> to get a deeper look into my thoughts or simply scroll below to see my interests.  */}
 </div>
 <div></div>
 </div>

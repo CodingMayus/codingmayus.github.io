@@ -43,7 +43,7 @@ transform: on ? 'translateX(0px)' : 'translateX(-300vw)'}}>
 {/*Link to couldve worked with browserrouting at least since im using hashrouting it messes things up.*/ }
 </div>
 <div className = 'feature'>
-<Link to ='/mythoughts' className = 'link1'>Thoughts</Link>
+<Link to ='/mythoughts' className = 'link4'>Thoughts</Link>
 </div>
 {/* <div className='feature'>
 <Link to='/contact' className = 'link5'>Contact</Link>

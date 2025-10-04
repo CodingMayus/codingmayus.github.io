@@ -22,13 +22,13 @@ export default function Navbar() {
     }
     return (
    <>
-<img className='shrinkbutton' src={require('./menuicon.png')} onClick = {handleClick}/> 
+{/* <img className='shrinkbutton' src={require('./menuicon.png')} onClick = {handleClick}/>  */}
                <div className = 'navbar' style = {{
 transition:'transform 1s ease',
 transform: on ? 'translateX(0px)' : 'translateX(-300vw)'}}>
-  <div className = 'feature'></div>
+  {/* <div className = 'feature'></div> */}
     <div id='name'>
-<Link to ='/' className = 'link1'>Matthew Yu</Link>
+<Link to ='/' className = 'link1'>Matthew Yu 😀</Link>
 </div>
 
 <div className ='feature'>
@@ -42,9 +42,9 @@ transform: on ? 'translateX(0px)' : 'translateX(-300vw)'}}>
     
 {/*Link to couldve worked with browserrouting at least since im using hashrouting it messes things up.*/ }
 </div>
-<div className = 'feature'>
+{/* <div className = 'feature'>
 <Link to ='/mythoughts' className = 'link4'>Thoughts</Link>
-</div>
+</div> */}
 {/* <div className='feature'>
 <Link to='/contact' className = 'link5'>Contact</Link>
 </div> */}

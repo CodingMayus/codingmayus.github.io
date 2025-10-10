@@ -114,12 +114,12 @@ function TechStack()
 // }
 
 function Cover(){
-      const handleScrollDown = () => {
-    const section = document.getElementsByClassName("intro-content");
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+//       const handleScrollDown = () => {
+//     const section = 
+//     if (section) {
+//       section.scrollIntoView({ behavior: "smooth" });
+//     }
+//   };
     return( <div id='cover'>
         <img></img>
         <div className='title'>
@@ -136,7 +136,6 @@ function Cover(){
         <div className ='scroll-btn-container'>
             <motion.button
         className="scroll-down-btn"
-        onClick={handleScrollDown}
         animate={{ y: [0, 20, 0] }}
         transition={{ repeat: Infinity, duration: 1.6, ease: "easeInOut" }}
       >

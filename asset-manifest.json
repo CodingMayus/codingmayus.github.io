@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0ae0b9c.css",
-    "main.js": "/static/js/main.5548cda4.js",
+    "main.css": "/static/css/main.1a880645.css",
+    "main.js": "/static/js/main.bc2042d5.js",
     "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
     "static/media/yourlegacy.png": "/static/media/yourlegacy.d15ef08f8de76977cee4.png",
+    "static/media/spaceship.png": "/static/media/spaceship.99735e95108daf804ee3.png",
     "static/media/blenderyourlegacy.png": "/static/media/blenderyourlegacy.7329d6600573c2370167.png",
     "static/media/mentalhealth.png": "/static/media/mentalhealth.9d97b19fef2b0fe53b1b.png",
     "static/media/betterkoicash.png": "/static/media/betterkoicash.76fa3a43061ac6130ca6.png",
@@ -25,12 +26,12 @@
     "static/media/me.webp": "/static/media/me.98325b83a96a1c297ca6.webp",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.e0ae0b9c.css.map": "/static/css/main.e0ae0b9c.css.map",
-    "main.5548cda4.js.map": "/static/js/main.5548cda4.js.map",
+    "main.1a880645.css.map": "/static/css/main.1a880645.css.map",
+    "main.bc2042d5.js.map": "/static/js/main.bc2042d5.js.map",
     "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0ae0b9c.css",
-    "static/js/main.5548cda4.js"
+    "static/css/main.1a880645.css",
+    "static/js/main.bc2042d5.js"
   ]
 }

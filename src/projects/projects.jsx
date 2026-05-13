@@ -19,6 +19,7 @@ import koicash from './betterkoicash.png';
 import intouch from './Intouch.png';
 import yourlegacy from './yourlegacy.png';
 import blenderlegacy from './blenderyourlegacy.png';
+import spaceship from './spaceship.png'
 //add more details and ways for the user to learn more ( devposts, live demos, etc...)
 
 // function Project({img, title, description, link}){
@@ -142,6 +143,7 @@ return (
             <Project img = {placeholderchecklist} title = 'Checklist Chrome Extension'description = 'Using Chrome.Storage API to create a personal TODO list.' link = 'https://github.com/CodingMayus/Check-List'/>
             </div>
             <div className =  'column'>
+            <Project img = {spaceship} title = "Bricked" description = 'Upload a photo of loose LEGO bricks and instantly see what you can build. We detect each piece, generate 3D templates, and create buildable structures using only the bricks you have.' link = {['https://github.com/sahijdev/bricked', 'https://devpost.com/software/bricked-up', 'https://www.youtube.com/watch?v=6O-_8EO27TQ&source_ve_path=MjM4NTE&embeds_referring_euri=https%3A%2F%2Fdevpost.com%2F']}/>
             <Project img = {intouch} title  = "InTouch" description = 'Cold Emails? NAH we give warm ones 👍  InTouch creates, personalises, and pushes outreach content for businesses based on real-time data.' link = {['https://github.com/VincentQu888/InTouch/tree/main', 'https://devpost.com/software/intouch-0fp1i5?ref_content=my-projects-tab&ref_feature=my_projects']}/>
             <Project img = {biasbuster} title = 'Bias Buster' description = 'BiasBuster shows the newest generation (gen alpha) the unbiased news and the various biases that take place on a comedic and educational level.' link = {['https://github.com/CodingMayus/Bias-Buster', 'https://www.youtube.com/watch?v=GIRuz1WxifE','https://dorahacks.io/buidl/21745']}/>
             <Project img = {philos} title ='Philos' description = "Philos, greek for friend, is an actual 3D friend that you can talk to, reactions and all. It analyzes your facial expressions and remembers them, along with conversations, the immersion is completed with different animations accompanying different actions or emotions the robot feels.  Theres also an cookie-based authentication system I made from scratch!" link = {['https://github.com/CodingMayus/philos', 'https://www.youtube.com/watch?v=rGQ0JNtqJf8','https://dorahacks.io/buidl/26376']}/>

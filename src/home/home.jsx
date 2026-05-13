@@ -40,12 +40,12 @@ function Introduction() {
           <h1 className="intro-title">MATTHEW YU 101</h1>
 
           <h3 className="intro-subtitle">
-            Math Student • Developer • Runner
+            Computer Science | Mathematics | Running
           </h3>
 
           <p className="intro-desc">
-            I’m a 17-year-old Math Student at the University of Waterloo.
-            I’m passionate about coding, math, and running — and love the
+            I’m a 18-year-old CS Student at the University of Waterloo.
+            I’m passionate about coding, math, running, and their 
             competitions that push me to give it my all.
           </p>
 

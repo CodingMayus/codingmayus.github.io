@@ -44,9 +44,9 @@ return(
     <img src = {require('./fancyme.jpg')}  alt = 'profile' id = 'me' className = "aboutimg"/>
     </div>
 <div></div>
-<div className = 'abouttext'>  Carrying on from my brief introduction: Hello my name is Matthew Yu from Aurora Canada.  I am currently a math student at the University of Waterloo with further aspirations to study Computer Science.
+<div className = 'abouttext'>  Carrying on from my brief introduction: Hello my name is Matthew Yu from Aurora Canada.  I am currently a computer science student at the University of Waterloo with interest in mathematics.
     
-I always had big dreams. My primary goal ever since grade 7 was to succeed in Math contests, and now Coding contests, so when I am not busy with running hundreds of kilometers, lifting thousands of pounds, studying for exams, or simply laughing at Instagram Reels, you will find me hard at work to improve my problem solving skills.
+I always had big dreams. My primary goal ever since grade 7 was to succeed in math contests, and now coding contests, so when I am not busy with running hundreds of kilometers, lifting thousands of pounds, studying for exams, or simply laughing at Instagram Reels, you will find me hard at work to improve my problem solving skills and creating things worth remembering.
 In this website, you can find recent events, my contacts, achievements, my hobbies, my projects, my journey, my life.  I hope you learn something new about me - maybe we can even work together in the future!  
 <div>
 </div>
@@ -72,7 +72,7 @@ In this website, you can find recent events, my contacts, achievements, my hobbi
     <img src = {require('./running.jpg')} alt = 'profile' id = 'me' className = "aboutimg"/>
     </div>
 <div></div>
-<div className = 'abouttext'>  Running has been a big part of my life.  I started Cross Country by chance in grade 3 and from then on have succeeded quite well in many races throughout elementary.   My main goal in running has always been to get to OFSAA which means to get faster.  I run everyday, do workouts both on the track and the gym ( thrice a week ), to maintain fitness and strength.  You can track my progress on Strava — which can be accessed by clicking the corresponding logo below in the footer, or <a className = 'generallink' href="https://www.strava.com/athletes/109665407" target="_blank" rel="noopener noreferrer">here</a>.
+<div className = 'abouttext'>  Running has been a big part of my life.  I started Cross Country in grade 3 and from then on have succeeded quite well in many races throughout elementary and high school.  Running has always been a direct way to push myself and improve. I aim to achieve my full physical potiental.  Which means,  I run everyday, do workouts both on the track and the gym ( thrice a week ), to maintain fitness and strength.  You can track my progress on Strava — which can be accessed by clicking the corresponding logo below in the footer, or <a className = 'generallink' href="https://www.strava.com/athletes/109665407" target="_blank" rel="noopener noreferrer">here</a>.
 </div>
 </div>
 <h1 id= 'abouttitle'>Mathematics</h1>
